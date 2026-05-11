@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+<servlet>
+    <servlet-name>Signup</servlet-name>
+    <servlet-class>Signup</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Signup</servlet-name>
+    <url-pattern>/Signup</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>commerce.Login</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>Cart</servlet-name>
+    <servlet-class>Cart</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Cart</servlet-name>
+    <url-pattern>/Cart</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>Logout</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+</servlet-mapping>
+<servlet>
+
+    <servlet-name>PlaceOrderServlet</servlet-name>
+
+    <servlet-class>
+        commerce.PlaceOrderServlet
+    </servlet-class>
+
+</servlet>
+
+<servlet-mapping>
+
+    <servlet-name>PlaceOrderServlet</servlet-name>
+
+    <url-pattern>/PlaceOrderServlet</url-pattern>
+
+</servlet-mapping>
+<servlet>
+    <servlet-name>DeleteOrder</servlet-name>
+    <servlet-class>commerce.DeleteOrder</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>DeleteOrder</servlet-name>
+    <url-pattern>/DeleteOrder</url-pattern>
+</servlet-mapping>
+
+</web-app>

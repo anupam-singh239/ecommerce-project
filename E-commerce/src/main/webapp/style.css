@@ -1,0 +1,174 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f3f6;
+}
+
+/* Navbar */
+.navbar {
+    background: #2874f0;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+
+/* Form box */
+.form-box {
+    width: 350px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #2874f0;
+    color: white;
+    border: none;
+}
+
+/* Products */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    background: white;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: 150px;
+}
+
+.product a {
+    display: block;
+    background: green;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+/* Cart */
+.cart-box {
+    width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+}
+/* ========================= */
+/* Order & Rating CSS */
+/* ========================= */
+
+.container{
+
+    width:80%;
+    margin:auto;
+    margin-top:40px;
+
+    background:white;
+    padding:20px;
+
+    border-radius:10px;
+
+    box-shadow:0px 0px 10px #ccc;
+}
+
+table{
+
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table th{
+
+    background:#003399;
+    color:white;
+    padding:12px;
+}
+
+table td{
+
+    padding:12px;
+    border-bottom:1px solid #ddd;
+    text-align:center;
+}
+
+input[type=text],
+input[type=number]{
+
+    width:250px;
+    padding:10px;
+    margin:10px;
+
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+input[type=submit]{
+
+    background:#003399;
+    color:white;
+
+    border:none;
+
+    padding:10px 20px;
+
+    border-radius:5px;
+
+    cursor:pointer;
+}
+
+input[type=submit]:hover{
+
+    background:#001f80;
+}
+
+.form-box{
+
+    width:350px;
+
+    background:white;
+
+    padding:30px;
+
+    margin:auto;
+
+    margin-top:60px;
+
+    border-radius:10px;
+
+    text-align:center;
+
+    box-shadow:0px 0px 10px #ccc;
+}
+
+a{
+
+    color:#003399;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+a:hover{
+
+    text-decoration:underline;
+}
