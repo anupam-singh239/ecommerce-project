@@ -1,6 +1,6 @@
 FROM tomcat:9.0
 
-COPY . /usr/local/tomcat/webapps/E-commerce
+COPY ./E-commerce /usr/local/tomcat/webapps/E-commerce
 
 EXPOSE 8080
 
